@@ -1,0 +1,40 @@
+body {
+  background-color: lightgrey;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+div {
+  padding-bottom: 10px;
+  flex-basis: 30%;
+  text-align: center;
+  margin-top: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: grey;
+}
+button {
+  width: 100px;
+  margin: 10px 45%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, .2);
+  letter-spacing: 1.5px;
+  font-size: 13px;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+  color: #FFFFFF;
+  background-color: slategray;
+  box-shadow: 2px 2px 5px darkgray;
+}
+input {
+  width: 80%;
+  margin: 5px 10%;
+  border-radius: 5px;
+  height: 100px;
+  font-size: 50px;
+  background-color: slategrey; 
+}
